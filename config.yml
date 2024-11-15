@@ -4,14 +4,6 @@ curator: ''
 source: ''
 tags: []
 license: ''
-files:
-- name: 性转换药剂实验(1)
-  filename: 性转换药剂实验(1).pdf
-  type: document
-  format: PDF Document
-  size: 12699963
-  md5: b378bdbb1726e4091a54ad5cd9642de2
-  page: 性转换药剂实验(1)_page.md
+files: []
 subdirs:
-- 不可解的我的一切
-- 别当欧尼酱啦
+- 测试
