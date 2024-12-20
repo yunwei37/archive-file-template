@@ -14,9 +14,13 @@ theme:
     - navigation.instant
     - navigation.instant.progress
     - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.expand
     - navigation.path
     - navigation.top
+    - navigation.prune 
+    - navigation.indexes 
+    - navigation.tracking
   palette:
     # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"
@@ -59,6 +63,8 @@ extra:
   - icon: /fontawesome/regular/envelope
     name: send me an email
     link: mailto:yunwei37@gmail.com
+  extra:
+    homepage: https://transchinese.org
 hooks:
   - hooks/socialmedia.py
 markdown_extensions:
