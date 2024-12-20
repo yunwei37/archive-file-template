@@ -62,7 +62,9 @@ extra:
   social:
   - icon: /fontawesome/regular/envelope
     name: send me an email
-    link: mailto:yunwei37@gmail.com
+    link: mailto:admin@transchinese.org
+  - icon: fontawesome/brands/x-twitter
+    link: https://x.com/transchineseorg
   extra:
     homepage: https://transchinese.org
 hooks:
