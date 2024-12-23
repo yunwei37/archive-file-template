@@ -1,11 +1,6 @@
-# 跨性别中文数字档案馆 - 新闻网页存档与资料库
+# 跨性别中文数字档案馆 template
 
 在这个信息快速流动但又易逝的时代，我们希望成为泛中文社区跨性别历史的见证者与守护者。
-
-## 网站
-
-- [主站点与文档存档库: digital.transchinese.org](https://digital.transchinese.org)
-- [新闻网页存档与资料库: news.transchinese.org](https://news.transchinese.org)
 
 ## 目录
 

@@ -1,7 +1,7 @@
 # 测试
 
 <!-- tcd_download_link -->
-Download: [测试.txt](测试.txt)
+TXT 下载: [测试.txt](测试.txt)
 <!-- tcd_download_link_end -->
 
 ## 摘要
@@ -21,7 +21,7 @@ Download: [测试.txt](测试.txt)
 | Size            | 5 bytes                           |
 | MD5             | 418e2c7fb040367d77776c3dbd200164                                  |
 | Archived Date   | 2024-11-15                             |
-| Original Link   | [[Unknown link(update needed)]]([Unknown link(update needed)])                         |
+| Original Link   | [Unknown link(update needed)]                         |
 | Author          | [Unknown author(update needed)]                               |
 | Region          | [Unknown region(update needed)]                               |
 | Date            | [Unknown date(update needed)]                                 |
