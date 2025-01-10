@@ -11,6 +11,10 @@ python .github/scripts/file/rename.py
 
 echo "Files renamed successfully!"
 
+# update encoding
+
+.github/scripts/file/encoding/fix_encoding.sh
+
 # detect entry
 python .github/scripts/config/hierarchy/detect_entry.py
 
@@ -46,13 +50,17 @@ python .github/scripts/file/add_config.py
 
 echo "Metadata added successfully!"
 
+python .github/scripts/page/embed_text.py
+
+echo "add file info"
+
 # Generate table of contents
 python .github/scripts/toc/her_toc.py
 
 echo "Table of contents generated successfully!"
 
 # temporially workaround?
-python .github/scripts/file/add_config.py
+python .github/scripts/file/add_config_from_page.py
 # why first time not successful?
 
 python .github/scripts/file/gen_search_index.py
