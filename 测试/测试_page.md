@@ -1,7 +1,7 @@
 # 测试
 
 <!-- tcd_download_link -->
-TXT 下载: [测试.txt](测试.txt)
+下载: [测试.txt](测试.txt)
 <!-- tcd_download_link_end -->
 
 ## 摘要
@@ -11,7 +11,7 @@ TXT 下载: [测试.txt](测试.txt)
 
 <!-- tcd_abstract_end -->
 
-## 其他信息
+## 其他信息 [Processed Page Metadata]
 
 | Attribute       | Value                                  |
 |-----------------|----------------------------------------|
@@ -28,3 +28,11 @@ TXT 下载: [测试.txt](测试.txt)
 | Tags            | [Unknown tags(update needed)]                                 |
 
 本文由跨性别中文数字档案馆归档整理，仅供存档使用。版权归原作者所有。
+
+
+## 正文 { data-search-exclude }
+
+<!-- tcd_main_text -->
+hhhh
+<!-- tcd_main_text_end -->
+
