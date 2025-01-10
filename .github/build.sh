@@ -52,7 +52,7 @@ python .github/scripts/toc/her_toc.py
 echo "Table of contents generated successfully!"
 
 # temporially workaround?
-python .github/scripts/file/add_config_from_page.py
+python .github/scripts/file/add_config.py
 # why first time not successful?
 
 python .github/scripts/file/gen_search_index.py
