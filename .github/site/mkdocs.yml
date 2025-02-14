@@ -1,9 +1,9 @@
-site_name: 档案template
+site_name: 档案馆template
 repo_url: https://transchinese.org/
 site_url: https://xxx.transchinese.org/
 site_description: '档案馆template'
-site_author: 多元性别中文数字图书馆
-copyright: '多元性别中文数字图书馆 2024'
+site_author: 档案馆
+copyright: '档案馆 2024'
 theme:
   name: material
   custom_dir: overrides
@@ -11,7 +11,8 @@ theme:
     - search.suggest
     - search.highlight
     - search.share
-    # - content.action.edit
+    - content.action.edit
+    - content.action.view
     - navigation.footer
     - navigation.instant
     - navigation.instant.progress
@@ -20,9 +21,7 @@ theme:
     - navigation.expand
     - navigation.path
     - navigation.top
-    - navigation.prune 
-    - navigation.indexes 
-    - navigation.tracking
+    - content.tabs.link
   palette:
     # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"
@@ -33,6 +32,7 @@ theme:
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default 
+      primary: black
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
@@ -40,6 +40,7 @@ theme:
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
+      primary: white
       toggle:
         icon: material/brightness-4
         name: Switch to system preference
@@ -60,7 +61,7 @@ plugins:
 extra:
   analytics:
     provider: google
-    property: G-NLEYWPXZ47
+    property: G-C3BBZBZSV8
   social:
   - icon: /fontawesome/regular/envelope
     name: send me an email
@@ -76,3 +77,21 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - admonition
+  - pymdownx.details
+  - attr_list
+  - md_in_html
+  - tables
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.tabbed:
+      alternate_style: true

@@ -10,7 +10,27 @@
 
 ## 目录
 
+---
+
+## 目录
+
+{{TAGS_SECTION}}
+
 {{TABLE_OF_CONTENTS}}
+
+<div class="grid" markdown>
+
+=== "最多访问"
+
+{{MOST_VISITED}}
+
+=== "最近更新"
+
+{{RECENT_UPDATES}}
+
+</div>
+
+---
 
 ## LICENSE
 
