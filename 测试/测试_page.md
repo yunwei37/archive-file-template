@@ -1,7 +1,10 @@
 # 测试
 
 <!-- tcd_download_link -->
-下载: [测试.txt](测试.txt)
+下载: <a href="../测试.txt" download>测试.txt</a>
+
+
+<a href="../测试.txt" download onclick="this.href='https://app.webnovel.win/?add='+encodeURIComponent(this.getAttribute('href'))">在线阅读 测试.txt</a>
 <!-- tcd_download_link_end -->
 
 ## 摘要
